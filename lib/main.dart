@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:qr_scanner/qr_home_page.dart';
 import 'package:qr_scanner/qr_scan.dart';
 
+import 'home_page.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: QrScanPage(),
+      home: HomePage(),
     );
   }
 }
