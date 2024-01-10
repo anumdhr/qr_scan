@@ -25,13 +25,13 @@ class _HomePageState extends State<HomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(
-            label: 'Scan QR',
+            label: 'Create QR',
             icon: Icon(
               Icons.qr_code_scanner,
             ),
           ),
         BottomNavigationBarItem(
-          label: 'Create QR',
+          label: 'Scan QR',
           icon: Icon(
             Icons.qr_code,
           ),
